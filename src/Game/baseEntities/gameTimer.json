@@ -1,0 +1,18 @@
+{
+    "type": "GameTimer",
+    "components": {
+        "Timer": {
+            "timer": 0.0
+        },
+        "Text": {
+            "score": "path/to/font",
+            "test": "undifined",
+            "pos": [0.0, 0.0]
+        },
+        "Texture2D": {
+            "path": "path/to/texture",
+            "pos": [4.2, 54.4]
+        },
+        "Render": {}
+    }
+}

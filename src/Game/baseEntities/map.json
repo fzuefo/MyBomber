@@ -1,0 +1,8 @@
+{
+    "type": "Map",
+    "components": {
+        "Map": {
+            "elements": "path/to/map"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+project(raylib)
+
+cmake_minimum_required (VERSION 3.17)
+
+include(ExternalProject)
+
+ExternalProject_Add(raylib
+	GIT_REPOSITORY https://github.com/raysan5/raylib.git
+	GIT_TAG	4.0.0
+	SOURCE_DIR "${CMAKE_SOURCE_DIR}/build/raylib-src"
+	BINARY_DIR "${CMAKE_SOURCE_DIR}/build/raylib-build"
+	CONFIGURE_COMMAND ""
+	BUILD_COMMAND ""
+	INSTALL_COMMAND ""
+	TEST_COMMAND ""
+)

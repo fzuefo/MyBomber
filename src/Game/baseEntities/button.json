@@ -1,0 +1,16 @@
+{
+    "type": "Button",
+    "components": {
+        "Render": {},
+        "Button": {},
+        "Sound": {
+            "path": "path/to/sound.mp3",
+            "volume": 1.5,
+            "status": "stop"
+        },
+        "Texture2D": {
+            "path": "path/to/texture",
+            "pos": [4.2, 54.4]
+        }
+    }
+}

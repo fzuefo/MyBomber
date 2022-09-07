@@ -1,0 +1,30 @@
+{
+    "type": "Bomb",
+    "components": {
+        "Render": {},
+        "Transform": {
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0.0, 0.0, 0.0],
+            "scale": [1.0, 1.0, 1.0]
+        },
+        "Model": {
+            "path_texture": "assets/tnt/tnt.png",
+	        "path_model": "assets/tnt/tnt.obj"
+        },
+        "CollisionRect": {
+            "origin": [1.5, 12.4],
+            "end": [4.2, 54.4]
+        },
+        "Bomb": {},
+        "MapElement": {
+            "position": [10, 15],
+            "map": "undefined"
+        },
+	"Effect": {
+	    "time":2
+	},
+	"Health": {
+	    "pv": 1
+	}
+    }
+}

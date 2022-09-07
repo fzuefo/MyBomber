@@ -1,0 +1,14 @@
+{
+    "type": "Menu",
+    "components": {
+        "Render": {},
+        "Transform": {
+            "position": [0.1, 0.1, 0.1],
+            "rotation": [0.0, 0.0, 0.0],
+            "scale": [1.0, 0.0, 0.0]
+        },
+        "Texture2D": {
+            "path": "assets/menu/background.png"
+        }
+    }
+}

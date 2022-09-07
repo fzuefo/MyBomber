@@ -1,0 +1,10 @@
+{
+    "type": "Background",
+    "components": {
+        "Render": {},
+        "Texture2D": {
+            "path": "path/to/texture",
+            "pos": [4.2, 54.4]
+        }
+    }
+}

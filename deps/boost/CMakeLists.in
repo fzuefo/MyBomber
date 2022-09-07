@@ -1,0 +1,16 @@
+project(boost)
+
+cmake_minimum_required (VERSION 3.17)
+
+include(ExternalProject)
+
+ExternalProject_Add(boost
+	GIT_REPOSITORY https://github.com/boostorg/boost.git
+	GIT_TAG	boost-1.79.0
+	SOURCE_DIR "${CMAKE_SOURCE_DIR}/build/boost-src"
+	BINARY_DIR "${CMAKE_SOURCE_DIR}/build/boost-build"
+	CONFIGURE_COMMAND ""
+	BUILD_COMMAND ""
+	INSTALL_COMMAND ""
+	TEST_COMMAND ""
+)

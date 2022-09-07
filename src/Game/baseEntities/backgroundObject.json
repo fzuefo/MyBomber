@@ -1,0 +1,23 @@
+{
+    "type": "BackgroundObject",
+    "components": {
+        "Render": {},
+        "Model" {
+            "path_texture": "../assets/obsidian/obsidian.png",
+	        "path_model": "../assets/obsidian/obsidian.obj"
+        },
+        "Animate": {
+            "path": "path/to/animation.format",
+            "frame": 0
+        },
+        "Transform": {
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0.0, 0.0, 0.0],
+            "scale": [0.0, 0.0, 0.0]
+        },
+        "Velocity": {
+            "speed": 0.0,
+            "acceleration": 0.0
+        }
+    }
+}

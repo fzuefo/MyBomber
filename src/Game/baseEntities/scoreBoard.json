@@ -1,0 +1,8 @@
+{
+    "type": "ScoreBoard",
+    "components": {
+        "ScoreBoard": {
+            "score": 0
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "type": "Wall",
+    "components": {
+        "Render": {},
+        "Transform": {
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0.0, 0.0, 0.0],
+            "scale": [1.0, 1.0, 1.0]
+        },
+        "Model": {
+            "path_texture": "assets/stone/stone.png",
+	        "path_model": "assets/stone/stone.obj"
+        },
+        "CollisionRect": {
+            "origin": [1.5, 12.4],
+            "end": [4.2, 54.4]
+        },
+        "Wall": {},
+        "Health": {
+            "pv": 1
+        },
+        "MapElement": {
+            "position": [10, 15],
+            "map": "undefined"
+        }
+    }
+}

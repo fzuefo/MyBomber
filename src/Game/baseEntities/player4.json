@@ -1,0 +1,37 @@
+{
+    "type": "Player",
+    "components": {
+        "Player": {
+            "name": "Player1"
+        },
+        "Render": {},
+        "Transform": {
+            "position": [0.0, -1.0, 0.0],
+            "rotation": [0.0, 0.0, 0.0],
+            "scale": [2.0, 2.0, 2.0]
+        },
+        "Model": {
+            "path_texture": "assets/villager/villager.png",
+	        "path_model": "assets/villager/villager.iqm"
+        },
+        "Animate": {
+	    "delay": 40
+        },
+        "CollisionRect": {
+            "origin": [1.5, 12.4],
+            "end": [4.2, 54.4]
+        },
+        "Velocity": {
+            "speed": 2.0,
+            "acceleration": 0.0
+        },
+        "Health": {
+            "pv": 1
+        },
+        "MapElement": {
+            "position": [10, 15],
+            "map": "undefined"
+        },
+        "Destructible": {}
+    }
+}

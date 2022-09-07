@@ -1,0 +1,79 @@
+{
+    "components": {
+        "Player": {
+            "name": "Player1"
+        },
+        "Render": {},
+        "Model": {
+            "path_texture": "../assets/obsidian/obsidian.png",
+	        "path_model": "../assets/obsidian/obsidian.obj"
+        },
+        "Sound": {
+            "path": "path/to/sound.mp3",
+            "volume": 1.5,
+            "status": "stop"
+        },
+        "Music": {
+            "path": "path/to/Music.mp3",
+            "volume": 1.5,
+            "status": "stop"
+        },
+        "Animate": {
+            "path": "path/to/animation.format",
+            "frame": 0
+        },
+        "CollisionRect": {
+            "origin": [1.5, 12.4],
+            "end": [4.2, 54.4]
+        },
+        "Transform": {
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0.0, 0.0, 0.0],
+            "scale": [0.0, 0.0, 0.0]
+        },
+        "Velocity": {
+            "speed": 0.0,
+            "acceleration": 0.0
+        },
+        "Health": {
+            "pv": 1
+        },
+        "MapElement": {
+            "position": [10, 15],
+            "map": "undefined"
+        },
+        "Destructible": {},
+        "Bomb": {},
+        "Power": {
+            "power": 1
+        },
+        "Effect": {
+            "duration": 0,
+            "time": 0.0
+        },
+        "Wall": {},
+        "Texture2D": {
+            "path": "path/to/texture",
+            "pos": [4.2, 54.4]
+        },
+        "Camera": {
+            "pos": [4.2, 54.4],
+            "orientation": [4.2, 54.4]
+        },
+        "Button": {},
+        "ScoreBoard": {
+            "score": 0
+        },
+        "Timer": {
+            "timer": 0.0
+        },
+        "Text": {
+            "score": "path/to/font",
+            "test": "undifined",
+            "pos": [0.0, 0.0]
+        },
+        "Map": {
+            "elements": "path/to/map"
+        }
+    }
+}

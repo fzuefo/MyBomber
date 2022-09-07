@@ -1,0 +1,15 @@
+{
+    "type": "Wall",
+    "components": {
+        "Render": {},
+        "Transform": {
+            "position": [0.0, -2.0, 0.0],
+            "rotation": [0.0, 0.0, 0.0],
+            "scale": [1.0, 1.0, 1.0]
+        },
+        "Model": {
+            "path_texture": "assets/bedrock/bedrock.png",
+	        "path_model": "assets/bedrock/bedrock.obj"
+        }
+    }
+}

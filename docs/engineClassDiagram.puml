@@ -1,0 +1,72 @@
+@startuml Engine
+
+
+namespace Indie {
+    class Engine {
+
+    }
+    namespace Entities {
+        class Player {
+
+        }
+        class Wall {
+            
+        }
+        class Bomb {
+            
+        }
+    }
+    namespace Modules {
+        class Move {
+            ~ someCalculations()
+            void doSomeStuff()
+            type getData()
+        }
+        class Collide {
+
+        }
+    }
+    namespace Components {
+        class Collision {
+
+        }
+
+        class Display {
+
+        }
+    }
+    interface ILibText {
+
+    }
+
+
+    interface ILibMusic {
+
+    }
+}
+
+
+
+
+
+
+
+namespace Raylib {
+    class Music {
+
+    }
+    class Text {
+
+    }
+}
+
+Indie.ILibText <|-- Raylib.Text
+Indie.ILibMusic <|-- Raylib.Music
+
+Indie.Engine "1" *-- "1-4" Indie.Entities.Player
+Indie.Engine "1" *-- "n" Indie.Entities.Wall
+Indie.Engine "1" *-- "n" Indie.Entities.Bomb
+
+Indie.Entities.Player "1" *-- "1" Indie.Modules.Move
+
+@enduml

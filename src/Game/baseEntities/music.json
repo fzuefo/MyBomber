@@ -1,0 +1,10 @@
+{
+    "type": "Music",
+    "components": {
+        "Music": {
+            "path": "path/to/Music.mp3",
+            "volume": 1.5,
+            "status": "stop"
+        }
+    }
+}

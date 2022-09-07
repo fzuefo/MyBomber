@@ -1,0 +1,34 @@
+{
+    "type": "Explosion",
+    "components": {
+        "Render": {},
+        "Model": {
+            "path_texture": "../assets/obsidian/obsidian.png",
+	        "path_model": "../assets/obsidian/obsidian.obj"
+        },
+        "Power": {
+            "power": 1
+        },
+        "Velocity": {
+            "speed": 0.0,
+            "acceleration": 0.0
+        },
+        "Animate": {
+	    "delay": 5
+        },
+        "Transform": {
+            "position": [0.0, 0.0, 0.0],
+            "rotation": [0.0, 0.0, 0.0],
+            "scale": [0.0, 0.0, 0.0]
+        },
+        "Sound": {
+            "path": "path/to/sound.mp3",
+            "volume": 1.5,
+            "status": "stop"
+        },
+        "Effect": {
+            "duration": 0,
+            "time": 0.0
+        }
+    }
+}

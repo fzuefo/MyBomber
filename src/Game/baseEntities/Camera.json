@@ -1,0 +1,17 @@
+{
+    "type": "Camera",
+    "components":{
+        "Render": {},
+        "Camera": {
+            "target": [20.0, 0.0, 20.0],
+            "pos": [20.0, 50, 35.0],
+            "fovy": 45.0,
+            "projection": 0
+        },
+        "Transform": {
+                "position": [0.2, 20, 1],
+                "rotation": [0.0, 0.0, 0.0],
+                "scale": [0.0, 0.0, 0.0]
+            }
+    }
+}
